@@ -104,13 +104,11 @@ const MainContent = () => {
                             }
                             <div className="flex items-center">
                               {!project.warningText && 
-                              <Link to={project.live} className="text-blue font-semibold text-lg live-content" target="_blank">Live</Link>
+                              <Link to={project.live} className="mr-3 text-blue font-semibold text-lg live-content" target="_blank">Live</Link>
                               }
-                              <div className="ml-3">
                                 <Link to={project.repo} target="_blank">
                                   <ProjectGithubIcon/>
                                 </Link>
-                              </div>
                             </div>
                           </div>
                         </div>
@@ -141,7 +139,7 @@ const MainContent = () => {
                             }
                             <div className="flex items-center">
                               {!project.warningText && 
-                              <Link to={project.live} className="text-blue font-semibold text-lg live-content" target="_blank">Live</Link>
+                              <Link to={project.live} className="mr-3 text-blue font-semibold text-lg live-content" target="_blank">Live</Link>
                               }
                               <Link to={project.repo} target="_blank">
                                 <ProjectGithubIcon/>

@@ -66,9 +66,9 @@ const MainContent = () => {
               </div>
               <ul className="flex flex-wrap items-center">
                 {skillsUrl.map((skill, idx) => (
-                  <li key={idx} className="w-[50px] sm:w-[12%] md:w-[6%] mr-5 mb-4 list-none rounded-lg" >
+                  <button key={idx} className="w-[50px] sm:w-[12%] md:w-[6%] mr-5 mb-4 list-none rounded-lg transform transition-transform duration-300 ease-out hover:scale-[1.09]">
                     <img src={skill.url} alt={`SkillImg`} style={{borderRadius: "25%"}}/>
-                  </li>
+                  </button>
                 ))}
               </ul>
             </div>

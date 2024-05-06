@@ -89,7 +89,7 @@ const MainContent = () => {
                               <p className="text-dark font-semibold text-base mr-3 mb-3">Built in:</p>
                               <div className="flex items-center flex-wrap">
                                 {project.aggregates.map((aggregate, idx) => (
-                                <button className="block rounded-[50%] bg-blue mr-3 p-3 text-white font-semibold text-base mb-3
+                                <button className="block bg-blue mr-3 px-3 py-2 text-white font-semibold text-base mb-3
                                   transition-all duration-400 ease-in-out transform hover:scale-[1.06]" key={idx}>
                                   {aggregate}
                                 </button>
@@ -124,7 +124,7 @@ const MainContent = () => {
                               <p className="text-dark font-semibold text-base mr-3 mb-3">Built in:</p>
                               <div className="flex items-center flex-wrap">
                                 {project.aggregates.map((aggregate, idx) => (
-                                <button className="block rounded-[50%] bg-blue mr-3 p-3 text-white font-semibold text-base mb-3
+                                <button className="block bg-blue mr-3 px-3 py-2 text-white font-semibold text-base mb-3
                                   transition-all duration-400 ease-in-out transform hover:scale-[1.06]" key={idx}>
                                   {aggregate}
                                 </button>

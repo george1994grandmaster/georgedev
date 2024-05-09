@@ -46,6 +46,12 @@ export const skillsUrl: SkillsUrl[] = [
     url: "https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg"
   },
   {
+    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/Prisma.svg"
+  },
+  {
+    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/SQLite.svg"
+  },
+  {
     url: "https://github.com/tandpfun/skill-icons/raw/main/icons/SolidJS-Dark.svg"
   },
   {
@@ -59,12 +65,6 @@ export const skillsUrl: SkillsUrl[] = [
   },
   {
     url: "https://github.com/tandpfun/skill-icons/raw/main/icons/Vite-Dark.svg"
-  },
-  {
-    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/Prisma.svg"
-  },
-  {
-    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/SQLite.svg"
   },
 ]
 

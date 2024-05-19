@@ -72,14 +72,14 @@ export const projects: Projects[] = [
   },
   {
     url: guide,
-    description: "This project is a digital showcase focusing on accessory e-commerce. This project serves as a demonstration of frontend development skills, featuring sleek and intuitive web layouts tailored for digital storefronts. Explore mock designs representing various accessory categories, offering a glimpse into potential e-commerce projects.",
+    description: "This project  is a digital platform tailored for mountain exploration. It showcases frontend development skills through intuitive web layouts designed for outdoor enthusiasts. Explore detailed trail guides and safety tips, providing a glimpse into potential projects for mountain adventure enthusiasts.",       
     repo: "https://github.com/george1994grandmaster/mountain-guide",
     live: "https://mountain-guide-indol.vercel.app",
     aggregates: ["React", "TypeScript", "Scss"],
   },
   {
     url: accessory,
-    description: "This project  is a digital platform tailored for mountain exploration. It showcases frontend development skills through intuitive web layouts designed for outdoor enthusiasts. Explore detailed trail guides and safety tips, providing a glimpse into potential projects for mountain adventure enthusiasts.",
+    description: "This project is a digital showcase focusing on accessory e-commerce. This project serves as a demonstration of frontend development skills, featuring sleek and intuitive web layouts tailored for digital storefronts. Explore mock designs representing various accessory categories, offering a glimpse into potential e-commerce projects.",
     repo: "https://github.com/george1994grandmaster/e-commerce-elite-accessory",
     live: "https://e-commerce-elite-accessory.vercel.app",
     aggregates: ["React", "TypeScript", "Redux", "Scss"],

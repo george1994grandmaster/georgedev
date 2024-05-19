@@ -56,7 +56,7 @@ const MainContent = () => {
                 </div>
               </div>
               <div className="w-full lg:w-4/12 mb-12 lg:mb-0">
-                <img src={Profile} alt="profile-img" className="object-contain h-80 rounded-full"/>
+                <img src={Profile} alt="profile-img" className="object-cover h-80" style={{borderRadius: "100%"}}/>
               </div>
             </div>
             <div className="flex items-center my-12 flex-col sm:flex-row">

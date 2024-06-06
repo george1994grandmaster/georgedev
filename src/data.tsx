@@ -60,6 +60,12 @@ export const skillsUrl: SkillsUrl[] = [
   {
     url: "https://github.com/tandpfun/skill-icons/raw/main/icons/Vite-Dark.svg"
   },
+  {
+    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/NodeJS-Dark.svg"
+  },
+  {
+    url: "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg"
+  },
 ]
 
 export const projects: Projects[] = [
